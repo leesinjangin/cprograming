@@ -10,7 +10,8 @@ int main()
         int num[MAX], kor[MAX], eng[MAX], average[MAX], total[MAX];
         int i,j,k, aMAX,temp;
         char name[MAX][12];
-        char tm[12];
+        char tm[12]; 
+        // or char tm;
         //aMAX=MAX;
 
         infile=fopen("input.txt", "rt");
